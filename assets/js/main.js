@@ -42,7 +42,7 @@ for (let i = 0; i < team.length; i++){
 
    cardsContainer.innerHTML += 
    `
-   <div class="card col-3 m-3 p-0">
+   <div class="card col-3 m-2 mx-4 p-0">
       <img src=${imgPath + element.image} class="card-img-top" alt="profile-image">
       <div class="card-body text-center">
          <h5 class="card-title">${element.name}</h5>
